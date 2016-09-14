@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>js hw1</title>
+	</head>
+	<body>
+	<script>
+		// Переменные задачи var
+		//1
+		 /*var coast
+		 var maxNumb
+		 var userName
+		 const minCoast*/
+
+		//2
+		/*console.log(test);
+		var test='string'; //undefined
+
+		var x='string';
+		var x='string №2';
+		console.log(x); //string №2*/
+
+		// Задачи let i const
+		//3
+		/*console.log(test);
+		let test='string';*/ //ошибка
+		
+		/*const x = 'string';
+		x = 'string №2';
+		console.log(x);*/ //ошибка
+
+		/*let someVariable = 15;
+		let someVariable = 10;*/ //ошибка
+
+		//Строки
+		
+		var string = 'some test string';  //с let почему-то не работает!!!!!!!!!
+		//1
+		string.charAt(0); //первая буква
+		string.slice(-1); //последняя буква
+
+		//2
+		string[0].toUpperCase() + string.slice(1, -1) + string.slice(-1).toUpperCase();
+		//3
+		string.indexOf('string');
+		//4
+		string.lastIndexOf(' ');
+		//5
+		string.substr(5, 4);
+		//6
+		string.substring(5, 9);
+		//7
+		string.substring(0, string.length - 6);
+		//8
+		var a=20;
+		var b=16;
+		string = '' + a + b;
+
+
+
+		//Числа
+		//1
+		Math.PI.toFixed(2);
+		//2
+		Math.min(15, 11, 16, 12, 51, 12, 13, 51);
+		Math.max(15, 11, 16, 12, 51, 12, 13, 51);
+		//3
+
+		//не поняла условия задачи! что собственно надо делать?
+
+		//4
+		var a = 0.6;
+		var b = 0.7;
+		z = a + b;
+		z.toFixed(1);
+
+		//или
+		var c = 0.6;
+		var d = 0.7;
+		y = (c * 10 + d * 10) / 10;
+
+		//5
+		parseInt('100&');
+
+
+		//Объект
+		//1
+		let shop = {
+			product: 'iphone'
+		};
+		shop.price = 1000;
+		shop.currency = 'dollar';
+		shop.details.model = '5';
+		shop.details.color = white;
+
+		// выбивает ошибку почему????
+
+	</script>
+	</body>
+</html>
